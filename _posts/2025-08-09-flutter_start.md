@@ -23,7 +23,7 @@ tag: Flutter
 
 ### 1.flutter简介
 
-![flutter](../images/posts/2025-08-08/各种各样的移动APP（flutter.cn）.png)
+![flutter](/images/posts/2025-08-08/各种各样的移动APP（flutter.cn）.png)
 
 Flutter 是由 Google 开发的开源 UI 软件开发工具包（SDK）。它允许开发者使用单一的代码库，为多种平台构建高性能、美观的原生应用，包括：
 
@@ -44,7 +44,7 @@ Flutter 是由 Google 开发的开源 UI 软件开发工具包（SDK）。它允
 
 PowerShell（包括Windows PowerShell和PowerShell Core）是微软公司开发的任务自动化和配置管理架构，由在.NET Framework和后来的.NET上构建的命令行界面壳层相关脚本语言组成。其窗口界面如图所示：
 
-![powershell](../images/posts/2025-08-08/powershell.png)
+![powershell](/images/posts/2025-08-08/powershell.png)
 
 使用powershell可以高效便捷地完成许多繁琐而又复杂的任务，下面介绍 了三种打开powershell窗口的方式：
 
@@ -52,25 +52,25 @@ PowerShell（包括Windows PowerShell和PowerShell Core）是微软公司开发�
 
 使用快捷键`win + r` 打开运行对话框，此时你可以在桌面的左下角看到一个窗口，如图所示：
 
-![running](../images/posts/2025-08-08/running.png)
+![running](/images/posts/2025-08-08/running.png)
 
 此时直接切换为英文输入法，输入单词`powershell`并回车：
 
-![running2](../images/posts/2025-08-08/running2.png)
+![running2](/images/posts/2025-08-08/running2.png)
 
 然后就会打开一个powershell窗口，如图所示：
 
-![running3](../images/posts/2025-08-08/running3.png)
+![running3](/images/posts/2025-08-08/running3.png)
 
 **方式2 使用快捷窗口打开：**
 
 在桌面上使用快捷键`win+x` 调出快捷菜单如图所示：
 
-![winx](../images/posts/2025-08-08/winx.png)
+![winx](/images/posts/2025-08-08/winx.png)
 
 此时可以直接使用鼠标点击powershell选项打开powershell窗口，也可以按`i`键打开powershell窗口，如图所示：
 
-![winx2](../images/posts/2025-08-08/winx2.png)
+![winx2](/images/posts/2025-08-08/winx2.png)
 
 **方式3 在指定文件夹下打开powershell窗口：**
 
@@ -78,15 +78,15 @@ PowerShell（包括Windows PowerShell和PowerShell Core）是微软公司开发�
 
 首先我们先打开目标文件夹，例如`下载`文件夹：
 
-![shift](../images/posts/2025-08-08/shift.png)
+![shift](/images/posts/2025-08-08/shift.png)
 
 然后按住`shift`键，同时鼠标右击文件夹空白处，在弹出的快捷菜单中点击在此处打开powershell窗口：
 
-![shift2](../images/posts/2025-08-08/shift2.png)
+![shift2](/images/posts/2025-08-08/shift2.png)
 
 便可以在指定文件夹下打开powershell窗口，如图所示：
 
-![shift3](../images/posts/2025-08-08/shift3.png)
+![shift3](/images/posts/2025-08-08/shift3.png)
 
 ### 3.如何使用powershell
 
@@ -95,7 +95,7 @@ PowerShell（包括Windows PowerShell和PowerShell Core）是微软公司开发�
 **窗口介绍：**
 
 如图所示，powershell窗口的布局十分简洁，整个窗口由标题栏和命令行组成（命令行即输入命令的额区域）：
-![learn_powershell](../images/posts/2025-08-08/learn_powershell.png)
+![learn_powershell](/images/posts/2025-08-08/learn_powershell.png)
 
 **输入一个命令：**
 
@@ -107,11 +107,11 @@ echo "hello world"
 
 如图所示：
 
-![learn_powershell2](../images/posts/2025-08-08/learn_powershell2.png)
+![learn_powershell2](/images/posts/2025-08-08/learn_powershell2.png)
 
 然按下回车键（Enter）,命令就会执行，同时我们可以在窗口中看到执行结果，如图所示：
 
-![learn_powershell3](../images/posts/2025-08-08/learn_powershell3.png)
+![learn_powershell3](/images/posts/2025-08-08/learn_powershell3.png)
 
 最后我们来了解一下如何在powershell窗口中粘贴命令，
 现在我们选中以下命令，并按下快捷键`ctrl+c`：
@@ -124,15 +124,15 @@ Write-Host "这是第三行命令" -ForegroundColor Red
 
 然后然后在点击powershell窗口，按下快捷键`ctrl+v`，如图所示：
 
-![learn_powershell4](../images/posts/2025-08-08/learn_powershell4.png)
+![learn_powershell4](/images/posts/2025-08-08/learn_powershell4.png)
 
 此时并没有看到命令的执行结果，我们需要按下回车键，这时就可以看到结果了，如图所示：
 
-![learn_powershell5](../images/posts/2025-08-08/learn_powershell5.png)
+![learn_powershell5](/images/posts/2025-08-08/learn_powershell5.png)
 
 **注意：**有时候powershell窗口中并没有回到命令行状态，说明命令正在执行中，如图所示：
 
-![learn_powershell6](../images/posts/2025-08-08/learn_powershell6.png)
+![learn_powershell6](/images/posts/2025-08-08/learn_powershell6.png)
 
 好了，以上就是需要了解的背景知识，接下来我们将开始创建我们的第一个APP！
 
@@ -284,15 +284,15 @@ echo ''
 
 将命令粘贴到powershell窗口后，就会看到如下界面：
 
-![install flutter](../images/posts/2025-08-08/install_flutter.png)
+![install flutter](/images/posts/2025-08-08/install_flutter.png)
 
 如果出现了以下情况，请点击是:
 
-![install_7zip](../images/posts/2025-08-08/install_7zip.png)
+![install_7zip](/images/posts/2025-08-08/install_7zip.png)
 
 所有命令执行完大约需要等待6分钟，当命令执行完之后，如果powershell窗口显示如下信息表示flutter安装完成：
 
-![alt text](../images/posts/2025-08-08/install_flutter_finished.png)
+![alt text](/images/posts/2025-08-08/install_flutter_finished.png)
 
 此时你已经完成了本节50%的步骤了🙂
 
@@ -311,17 +311,17 @@ echo ''
 
 如图：
 
-![flutter_start](../images/posts/2025-08-08/flutter_start.png)
+![flutter_start](/images/posts/2025-08-08/flutter_start.png)
 
 请等待几分钟，如果显示以下内容表示命令执行完成：
 
-![flutt_start2](../images/posts/2025-08-08/flutter_start2.png)
+![flutt_start2](/images/posts/2025-08-08/flutter_start2.png)
 
 我们可以查看滚动窗口查看更详细的信息，如果你暂时不想了解flutter的具体细节，可以进入下一节。
 
 flutter输出的信息解释：
 
-![flutter detail](../images/posts/2025-08-08/flutter_detail.png)
+![flutter detail](/images/posts/2025-08-08/flutter_detail.png)
 
 这里我们可以了解到如下信息：
 
@@ -347,11 +347,11 @@ flutter输出的信息解释：
 
 在创建项目之前，我们需要准备一个文件夹，请根据你的使用习惯在你认为合适的地方创建一个存放flutter项目的文件夹吧。例如本文使用的是`C:\Users\yu\Documents\flutter_projects`
 
-![flutter_project_dir](../images/posts/2025-08-08/flutter_project_dir.png)
+![flutter_project_dir](/images/posts/2025-08-08/flutter_project_dir.png)
 
 我们在创建的flutter文件夹中，按住shift键，鼠标右击空白处，在弹出的快捷菜单中点击`在此处打开Powershell窗口` 如图所示：
 
-![start powershell](../images/posts/2025-08-08/start_powershell.png)
+![start powershell](/images/posts/2025-08-08/start_powershell.png)
 
 在打开的powershell窗口中粘贴以下命令：
 
@@ -362,13 +362,13 @@ cd myapp1
 
 以上命令会创建一个名为myapp1的flutter项目，并进入到myapp1项目文件夹中，如图所示：
 
-![myapp1 start](../images/posts/2025-08-08/myapp1_start.png)
+![myapp1 start](/images/posts/2025-08-08/myapp1_start.png)
 
 如果你熟悉了以上两条命令，可以自己创建一个不同名称的项目然后继续后续的步骤。
 
 我们可以看到flutter_projects文件夹中多了一个名为myapp1的文件夹，这便是myapp1项目文件保存的地方。
 
-![myapp1 start 1](../images/posts/2025-08-08/myapp1_start1.png)
+![myapp1 start 1](/images/posts/2025-08-08/myapp1_start1.png)
 
 ### 2.在Edge浏览器中查看我们的APP
 
@@ -379,11 +379,11 @@ flutter run
 ```
 此时会出现以下界面，我们需要输入`Edge`所对应的序号，例如我这里是2，所以我就输入2：
 
-![select device](../images/posts/2025-08-08/select_device.png)
+![select device](/images/posts/2025-08-08/select_device.png)
 
 等待几分钟，如果你看到了一个浏览器界面出现了一个如图下图所示的解密，那么恭喜你，你已经完成了一个flutter项目的创建🎉
 
-![web app](../images/posts/2025-08-08/web_app.png)
+![web app](/images/posts/2025-08-08/web_app.png)
 
 浏览器中显示的是一个flutter的demo APP，该APP实现了点击➕按钮就能让屏幕中间数字增大的功能。
 
@@ -403,97 +403,97 @@ https://github.com/zhuzilina/myapp1.git
 
 [https://developer.android.google.cn/studio?hl=zh-cn](https://developer.android.google.cn/studio?hl=zh-cn)
 
-![android download](../images/posts/2025-08-08/android_download.png)
+![android download](/images/posts/2025-08-08/android_download.png)
 
 点击按钮“下载 Android Studio Narwhal 功能更新”
 
-![android_download2](../images/posts/2025-08-08/android_download2.png)
+![android_download2](/images/posts/2025-08-08/android_download2.png)
 
 然后会出现一个协议条款的窗口，滚动到协议文本末尾，勾选我已阅读并同意上述条款及条件，并点击下载按钮开始下载Android studio安装包：
 
-![android_download3](../images/posts/2025-08-08/android_download3.png)
+![android_download3](/images/posts/2025-08-08/android_download3.png)
 
 此时我们可以看到已经在下载Android studio的安装包了：
 
-![android_download4](../images/posts/2025-08-08/android_download4.png)
+![android_download4](/images/posts/2025-08-08/android_download4.png)
 
 下载完成后点击打开文件即可进入Android studio的安装程序,请点击是开始安装：
 
-![android_install](../images/posts/2025-08-08/android_install.png)
+![android_install](/images/posts/2025-08-08/android_install.png)
 
 然后一直点击next：
 
-![android_install2](../images/posts/2025-08-08/android_install2.png)
+![android_install2](/images/posts/2025-08-08/android_install2.png)
 
 直到这一步，点击install开始安装Android studio：
 
-![android_install3](../images/posts/2025-08-08/android_install3.png)
+![android_install3](/images/posts/2025-08-08/android_install3.png)
 
 然后等待1分钟，即可完成Android studio的安装，然后我们点击next：
 
-![android_install4](../images/posts/2025-08-08/android_install4.png)
+![android_install4](/images/posts/2025-08-08/android_install4.png)
 
 最后点击finish，完成Android studio的安装，同时Android studio会自动打开：
 
-![android_install5](../images/posts/2025-08-08/android_install5.png)
+![android_install5](/images/posts/2025-08-08/android_install5.png)
 
 打开Android studio后，首先会出现第一个窗口，点击don't  send：
 
-![android_start](../images/posts/2025-08-08/android_start.png)
+![android_start](/images/posts/2025-08-08/android_start.png)
 
 此时会出现一个弹窗，点击 cancel：
 
-![android_start2](../images/posts/2025-08-08/android_start2.png)
+![android_start2](/images/posts/2025-08-08/android_start2.png)
 
 然后一直点击next：
 
-![android_start3](../images/posts/2025-08-08/android_start3.png)
+![android_start3](/images/posts/2025-08-08/android_start3.png)
 
 直到不能点击时，先点击accept接受协议，再点击next：
 
-![android_start4](../images/posts/2025-08-08/android_start4.png)
+![android_start4](/images/posts/2025-08-08/android_start4.png)
 
 此时会开始下载Android sdk文件，请等待几分钟，当finish按钮高亮时，点击finish，进入Android studio：
 
-![android_start5](../images/posts/2025-08-08/android_start5.png)
+![android_start5](/images/posts/2025-08-08/android_start5.png)
 
 点击Android studio窗口中的⚙️按钮：
 
-![tool_chain](../images/posts/2025-08-08/tool_chain.png)
+![tool_chain](/images/posts/2025-08-08/tool_chain.png)
 
 然后点击settings选项进入Android studio配置窗口：
 
-![tool_chain2](../images/posts/2025-08-08/tool_chain2.png)
+![tool_chain2](/images/posts/2025-08-08/tool_chain2.png)
 
 在Android studio配置窗口中点击languages & Frameworks选项：
 
-![tool_chain3](../images/posts/2025-08-08/tool_chain3.png)
+![tool_chain3](/images/posts/2025-08-08/tool_chain3.png)
 
 接着在详情栏中点击Android sdk：
 
-![tool_chain4](../images/posts/2025-08-08/tool_chain4.png)
+![tool_chain4](/images/posts/2025-08-08/tool_chain4.png)
 
 在Android sdk配置栏中点击sdk tools选项：
 
-![tool_chain5](../images/posts/2025-08-08/tool_chain5.png)
+![tool_chain5](/images/posts/2025-08-08/tool_chain5.png)
 
 然后在sdk tools配置栏中勾选Android sdk command-line tools并点击ok按钮完成Android studio的配置：
 
-![tool_chain6](../images/posts/2025-08-08/tool_chain6.png)
+![tool_chain6](/images/posts/2025-08-08/tool_chain6.png)
 
 在弹出的确认提示框中点击ok：
 
-![tool_chain7](../images/posts/2025-08-08/tool_chain7.png)
+![tool_chain7](/images/posts/2025-08-08/tool_chain7.png)
 
 此时Android studio会下载依赖文件，需要几分钟的时间，当finish按钮高亮时点击finish按钮关闭窗口：
 
-![tool_chain8](../images/posts/2025-08-08/tool_chain8.png)
+![tool_chain8](/images/posts/2025-08-08/tool_chain8.png)
 
 至此我们已经完成了Android配置的30%，接下来的操作需要回到原来的powershell窗口中，如果你关闭了刚才的powershell窗口，请打开flutter项目的文件夹然后使用第三节的方法打开一个powershell窗口。
 
 例如我的flutter项目是myapp1，那么我需要打开myapp1这一文件夹，在该文件夹下打开powershell窗口：
 
-![tool_chain9](../images/posts/2025-08-08/tool_chain9.png)
+![tool_chain9](/images/posts/2025-08-08/tool_chain9.png)
 
 ### 2.配置Android许可
 
@@ -505,7 +505,7 @@ flutter doctor
 
 此时会出现一个弹窗，请点击允许：
 
-![tool_chain10](../images/posts/2025-08-08/tool_chain10.png)
+![tool_chain10](/images/posts/2025-08-08/tool_chain10.png)
 
 然后继续粘贴以下命令：
 
@@ -515,15 +515,15 @@ flutter doctor --android-licenses
 
 此时powershell窗口中会询问是否同意选项：
 
-![tool_chain11](../images/posts/2025-08-08/tool_chain11.png)
+![tool_chain11](/images/posts/2025-08-08/tool_chain11.png)
 
 输入英文字符`y`并回车，剩下的6个询问是否同意选项也是这样的操作:
 
-![tool_chain12](../images/posts/2025-08-08/tool_chain12.png)
+![tool_chain12](/images/posts/2025-08-08/tool_chain12.png)
 
 当所有的选项都输入y并回车之后，即完成了Android许可的配置：
 
-![tool_chain13](../images/posts/2025-08-08/tool_chain13.png)
+![tool_chain13](/images/posts/2025-08-08/tool_chain13.png)
 
 至此Android的配置已经完成了70%，最后一步我们需要配置gradle，我们将继续在powershell窗口中完成后续操作。
 
@@ -577,7 +577,7 @@ echo ''
 
 如果powershell窗口显示以下内容表示配置完成：
 
-![gradle](../images/posts/2025-08-08/gradle.png)
+![gradle](/images/posts/2025-08-08/gradle.png)
 
 现在已经完成了gradle的配置步骤，恭喜你完成了所有的配置，下一节我们将讨论如何创建一个apk文件,并在手机上安装该APP。
 
@@ -598,7 +598,7 @@ Running Gradle task 'assembleRelease'...                          326.7s
 
 如图：
 
-![apk](../images/posts/2025-08-08/apk.png)
+![apk](/images/posts/2025-08-08/apk.png)
 
 如果这一步顺利完成了，那么恭喜你，你已经拥有了一个APP 安装包了🎉
 
@@ -614,22 +614,22 @@ Copy-Item -Path "build\app\outputs\flutter-apk\app-release.apk" -Destination "~\
 
 执行完以上命令后，我们可以在桌面上看到一个名为myapp1.apk的文件：
 
-![apk2](../images/posts/2025-08-08/apk2.png)
+![apk2](/images/posts/2025-08-08/apk2.png)
 
 这便是我们后续需要安装的apk软件啦！
 你可以通过你擅长的文件传输方式将该文件发送到你的手机上，进行安装。我这里使用QQ
 
-![qq_file](../images/posts/2025-08-08/qq_file.png)
+![qq_file](/images/posts/2025-08-08/qq_file.png)
 
 apk文件通过QQ传输后会自动在文件名末尾加上`.1`:
 
-![file_apk_1](../images/posts/2025-08-08/file_apk_1.jpg)
+![file_apk_1](/images/posts/2025-08-08/file_apk_1.jpg)
 
 我们需要手动重命名将末尾的`.1`删去，然后点击该文件即可进入APP安装界面，由于不同的设备安装apk的方式不同，这里就不再讨论，你可以去网上搜索一下自己的设备是如何安装apk文件的。
 
 最后安装完成的APP，打开后的效果如图：
 
-![app](../images/posts/2025-08-08/app.jpg)
+![app](/images/posts/2025-08-08/app.jpg)
 
 ## 六、结语
 
