@@ -11,7 +11,7 @@ tag: Flutter
 
 - 操作系统：Windows11
 - 浏览器：Edge
-- 命里行工具：powershell
+- 命令行工具：powershell
 
 > 你可以使用Windows10及以上版本，浏览器选择电脑自带浏览器即可。
 
@@ -122,7 +122,7 @@ Write-Host "这是第而二行命令"
 Write-Host "这是第三行命令" -ForegroundColor Red
 ```
 
-然后然后在点击powershell窗口，按下快捷键`ctrl+v`，如图所示：
+然后再点击powershell窗口，按下快捷键`ctrl+v`，如图所示：
 
 ![learn_powershell4](/images/posts/2025-08-08/learn_powershell4.png)
 
@@ -381,7 +381,7 @@ flutter run
 
 ![select device](/images/posts/2025-08-08/select_device.png)
 
-等待几分钟，如果你看到了一个浏览器界面出现了一个如图下图所示的解密，那么恭喜你，你已经完成了一个flutter项目的创建🎉
+等待几分钟，如果你看到了一个浏览器界面出现了一个如下图所示的解密，那么恭喜你，你已经完成了一个flutter项目的创建🎉
 
 ![web app](/images/posts/2025-08-08/web_app.png)
 
@@ -417,7 +417,7 @@ https://github.com/zhuzilina/myapp1.git
 
 ![android_download4](/images/posts/2025-08-08/android_download4.png)
 
-下载完成后点击打开文件即可进入Android studio的安装程序,请点击是开始安装：
+下载完成后点击打开文件即可进入Android studio的安装程序,请点击`是`开始安装：
 
 ![android_install](/images/posts/2025-08-08/android_install.png)
 
